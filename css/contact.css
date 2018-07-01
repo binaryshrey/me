@@ -7,7 +7,7 @@ body{
 }
 
 .my-nav{
-    background-image: url("../img/bp-min.png");
+    background-image: url("../img/bp.png");
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -224,19 +224,6 @@ header .social {
         margin-right: auto;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .footer-1{
