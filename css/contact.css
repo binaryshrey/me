@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.my-nav{
+    background-image: url("../img/background.png");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    background-color: transparent !important;
+}
+.navbar-brand img{
+    width: 56px;
+}
+
+.navbar .navbar-brand {
+    font-size:1.3em;
+    font-weight: bold;
+
+}
+.navbar .navbar-nav .nav-item{
+    padding-left: 96px;
+    font-size: 1.2em;
+
+}
+
+header .avatar {
+    display: block;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    margin-top: 12vh;
+}
+
+.name h2 {
+    font-family: sans-serif;
+    font-size: 1.7em;
+    text-align: center;
+    padding-top: 24px;
+    color: white;
+    margin: auto;
+    font-weight: 700;
+}
+.name h3 {
+    font-family:  sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    margin: 8px auto;
+}
+
+/*socail media links*/
+.social .fa {
+    padding-top: 16px;
+    width: 32px;
+    margin: 5px 2px;
+    border-radius: 48%;
+}
+.box .fa{
+    padding-top: 24px;
+}
+header .social {
+    text-align: center;
+    font-size: 1.4em;
+    margin: auto;
+    margin-bottom: 144px;
+}
+
+/*hover effects*/
+.fa-twitter,
+.fa-linkedin,
+.fa-github,
+.fa-google-plus{
+    transition: color 0.5s ease;
+    color:white;
+}
+
+.fa-twitter:hover {
+    color: #00aced;
+    text-decoration: none;
+}
+.fa-linkedin:hover {
+    color: #007bb6;
+    text-decoration: none;
+}
+.fa-github:hover {
+    color: #000000;
+     text-decoration: none;
+}
+
+.fa-google-plus:hover {
+    color: #d34836;
+     text-decoration: none;
+}
+
+/* connect */
+.contact {
+    font-family:  sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 1.4em;
+    letter-spacing: .2rem;
+
+}
+
+
+
+@media screen and (min-width:700px){
+    header .avatar {
+    width: 160px;
+    height: 160px;
+    margin-top: 20vh;
+    }
+    .name h2 {
+        font-size: 2.2em;
+    }
+    .name h3{
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (min-width:1024px){
+    header .avatar {
+    width: 192px;
+    height: 192px;
+    margin-top: 30vh;
+    }
+    .name h2 {
+        font-size: 2.4em;
+    }
+    .name h3{
+        font-size: 1.6em;
+    }
+}
+
+
+
+
+
+
+.contact-me .container{
+    display: flex;
+    flex-wrap: wrap;
+   margin: 100px auto;
+}
+/*contact details*/
+.box {
+    width: 100%;
+    height: 200px;
+}
+.phone {
+    background-color: #92dbdb;
+    text-align: center;
+    margin: auto;
+}
+.email {
+    background-color: #6CC;
+    text-align: center;
+    margin: auto;
+}
+.location {
+    background-color: #039596;
+    text-align: center;
+    margin: auto;
+}
+.edu {
+    background-color:  #2bacad;
+    text-align: center;
+}
+
+.box .info{
+    padding-top:10px;
+    font-size: 1.4em;
+}
+.box p{
+    font-size: 0.9em;
+}
+.row{
+    padding-bottom:  1rem;
+}
+.footer-2{
+    background-color:black;
+    font-size: .9rem;
+}
+.connect {
+    text-align: center;
+    padding-top: 24px;
+    font-size: 1rem;
+    color: white;
+}
+
+
+/*media querry for responsiveness*/
+@media screen and (min-width:480px) {
+    .phone,
+    .email{
+        width: 50%;
+    }
+     .location,
+     .edu {
+        width: 50%;
+    }
+}
+@media screen and (min-width:1024px) {
+    .phone,
+    .email,
+    .location,
+    .edu{
+        width: 25%;
+    }
+}
+@media screen and (min-width:1024px) {
+    .contact-me .container {
+        width: 1024px;
+        margin-left:  auto;
+        margin-right: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-1{
+    background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+}
+.footer-2{
+    background-color:black;
+    font-size: .9em;
+}
+
+.connect {
+    text-align: center;
+    padding-top: 24px;
+    font-size: 1em;
+    color: white;
+}
+.row{
+    padding-bottom:  1em;
+}
